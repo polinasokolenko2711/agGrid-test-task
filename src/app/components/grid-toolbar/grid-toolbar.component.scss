@@ -1,0 +1,33 @@
+.toolbar-wrapper{
+    padding: 25px;
+    width: 100%;
+
+    .field{
+        width: 170px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        font-size: 14px;
+        width: 100%;
+
+        .parameter{
+            font-weight: 500;
+        }
+    }
+
+    button{
+        border: none;
+        padding: 10px;
+        color: #fff;
+        margin: 0 auto;
+        font-weight: 700;
+        border-radius: 4px;
+        &.active {
+            background: darkcyan;
+        }
+        &.disabled {
+            background: #555;
+        }
+    }
+}

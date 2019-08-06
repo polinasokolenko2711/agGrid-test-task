@@ -1,0 +1,11 @@
+<div class="toolbar-wrapper">
+    <button (click)="toggleMode()" [ngClass]="isSelectedMode ? 'disabled' : 'active'">Selection mode</button>
+    <div class="field">
+        <p class="parameter">Total: </p>
+        <p>{{totalAmount}}</p>
+    </div>
+    <div class="field">
+        <p class="parameter">Selected: </p>
+        <p>{{selectedAmount}}</p>
+    </div>
+</div>
